@@ -6,12 +6,13 @@ This project makes use of the [Sementic Versioning](http://semver.org/)
 
 ### Added
 - Backup support (Support for filesystem, mysql and postgresql, backup to S3)
+- test-kitchen to automatically test the cookbooks and resulting server setup
 
 ### Deprecated
 - Nothing
 
 ### Removed
-- Nothing
+- Removed the sudos cookbook because it is not needed for the Unicorn stack anymore
 
 ### Fixed
 - Removed spaces from the .rbenv-vars template file
