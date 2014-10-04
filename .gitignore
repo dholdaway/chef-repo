@@ -14,3 +14,6 @@ nodes/*.json
 .bundle
 
 .kitchen
+.kitchen/
+.kitchen.local.yml
+.librarian
