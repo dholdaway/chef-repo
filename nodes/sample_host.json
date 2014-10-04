@@ -5,11 +5,6 @@
     "server_root_password": "<enter a random password>",
     "server_repl_password": "<enter a random password>"
   },
-  "authorization": {
-    "sudo": {
-      "users": ["<your sudo user>"]
-    }
-  },
   "ssh_deploy_keys": [
     "<enter the contents of an id_rsa.pub here>"
   ],
