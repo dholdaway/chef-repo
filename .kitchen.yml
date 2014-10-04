@@ -1,13 +1,12 @@
 ---
 driver:
-  name: vagrant
-
-provisioner:
-  name: chef_solo
+  name: digitalocean
 
 platforms:
-#  - name: ubuntu-12.04
-  - name: ubuntu-14.04
+  - name: ubuntu-14-04-x64
+    driver_config:
+      region: ams1
+      size: 2gb
 
 suites:
   - name: full-stack
