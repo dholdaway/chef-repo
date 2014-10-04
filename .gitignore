@@ -12,3 +12,5 @@ nodes/*.json
 
 .bundle/install.log
 .bundle
+
+.kitchen

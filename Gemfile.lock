@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    chef (11.14.6)
+    chef (11.16.2)
       chef-zero (~> 2.1, >= 2.1.4)
       diff-lcs (~> 1.2, >= 1.2.4)
       erubis (~> 2.7)
@@ -15,7 +15,7 @@ GEM
       mixlib-shellout (~> 1.4)
       net-ssh (~> 2.6)
       net-ssh-multi (~> 1.1)
-      ohai (~> 7.2)
+      ohai (~> 7.4)
       plist (~> 3.1.0)
       pry (~> 0.9)
       rest-client (>= 1.0.4, <= 1.6.7)
@@ -56,6 +56,8 @@ GEM
     mixlib-config (2.1.0)
     mixlib-log (1.6.0)
     mixlib-shellout (1.4.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
     net-ssh (2.9.1)
     net-ssh-gateway (1.2.0)
       net-ssh (>= 2.6.5)
@@ -81,8 +83,15 @@ GEM
     rack (1.5.2)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    safe_yaml (1.0.4)
     slop (3.6.0)
     systemu (2.6.4)
+    test-kitchen (1.2.1)
+      mixlib-shellout (~> 1.2)
+      net-scp (~> 1.1)
+      net-ssh (~> 2.7)
+      safe_yaml (~> 1.0)
+      thor (~> 0.18)
     thor (0.19.1)
     wmi-lite (1.0.0)
 
@@ -90,6 +99,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  chef (~> 11.14.2)
+  chef (~> 11.16.2)
   knife-solo (~> 0.4.1)
   librarian-chef (~> 0.0.4)
+  test-kitchen
