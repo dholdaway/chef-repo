@@ -237,6 +237,8 @@ in 5 - 10 minutes**. If something doesn't work or you need more instructions:
 
 ## Testing with test-kitchen
 
+### CI testing
+
 Test-kitchen is a tool where you can automatically provision a server with these cookbooks and run the tests for them. The configuration in `.kitchen.yml` works with DigitalOcean.
 
 First you need to obtain a DigitalOcean access token here: https://cloud.digitalocean.com/settings/applications. Then you need to find IDs of the SSH keys you added to your account: https://cloud.digitalocean.com/ssh_keys. You can obtain these IDs with the following command:
@@ -254,6 +256,14 @@ $ bin/kitchen test
 ```
 
 This command boots up a Droplet in your DigitalOcean account, provisions it with Chef, runs the tests and destroys the Droplet.
+
+### Testing while developing
+
+If you want to keep the Droplet running and do testing while making changes you can use the `kitchen verify` command instead of the `kitchen test` command to verify your changes:
+
+```
+$ bin/kitchen verify
+```
 
 ## Resources and original authors
 
