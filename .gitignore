@@ -1,7 +1,6 @@
 .rake_test_cache
 recipes.tgz
 /config/servers.rb
-bin/
 
 nodes/*.json
 !nodes/sample_host.json
