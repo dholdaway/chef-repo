@@ -16,3 +16,5 @@ nodes/*.json
 .kitchen/
 .kitchen.local.yml
 .librarian
+
+.rbenv-vars

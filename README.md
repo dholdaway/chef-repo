@@ -1,6 +1,8 @@
 Intercity Chef Recipes
 ======================
 
+[ ![Codeship Status for intercity/chef-repo](https://codeship.io/projects/cca718f0-2e65-0132-1079-2a765a227ada/status)](https://codeship.io/projects/39371)
+
 This Chef repository aims at being the easiest way set up and configure your own Rails server
 to host one or more Ruby on Rails applications using best
 practices from our community.
