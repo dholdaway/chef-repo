@@ -7,8 +7,7 @@ platforms:
     driver_config:
       region: ams1
       size: 2gb
-      hostname: test.intercity.io
-      name: test.intercity.io
+      server_name: chef-repo-test
 
 suites:
   - name: full-stack
