@@ -34,7 +34,7 @@ GEM
     hashie (2.1.2)
     highline (1.6.21)
     ipaddress (0.8.0)
-    json (1.8.1)
+    json (2.5.1)
     knife-solo (0.4.2)
       chef (>= 10.12)
       erubis (~> 2.7.0)
